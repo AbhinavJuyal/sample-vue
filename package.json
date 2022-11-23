@@ -1,0 +1,21 @@
+{
+  "name": "sample-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "json:server": "json-server --watch ./json-server/db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "vue": "^3.2.41",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.3"
+  }
+}
